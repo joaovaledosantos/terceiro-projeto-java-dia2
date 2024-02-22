@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Aula1 {
     public static void main(String[] args) {
         int[] my_array1 = {
@@ -12,5 +14,13 @@ public class Aula1 {
                 "C Programming",
                 "C++"
         };
+        //Array 1
+        System.out.println("Array 1 - Original: " + Arrays.toString(my_array1));
+        Arrays.sort(my_array1);
+        System.out.println("Array 1 - Ordem: " + Arrays.toString(my_array1));
+        //Array 2
+        System.out.println("Array 2 - Original: " + Arrays.toString(my_array2));
+        Arrays.sort(my_array2);
+        System.out.println("Array 2 - Ordem: " + Arrays.toString(my_array2));
     }
 }
