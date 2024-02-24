@@ -1,0 +1,14 @@
+package Dia6;
+
+public class Car {
+
+    private String marca;
+    private String modelo;
+    private int ano;
+
+    Car(String marca, String modelo,int ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+}

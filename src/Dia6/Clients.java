@@ -1,11 +1,11 @@
 package Dia6;
 
-public class aula62 {
-        String firstName;
+public class Clients {
+        private String firstName;
         int age;
         int balance;
 
-        aula62() {
+        Clients() {
             balance = 5;
         }
 
